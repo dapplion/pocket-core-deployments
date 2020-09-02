@@ -34,6 +34,7 @@ fields:
       type: environment
       name: SHIELDED_PASSPHRASE
     required: true
+    secret: true
     if:
       account:
         enum:
@@ -46,6 +47,7 @@ fields:
       type: environment
       name: POCKET_CORE_PASSPHRASE
     required: true
+    secret: true
     if:
       account:
         enum:
@@ -59,6 +61,7 @@ fields:
       type: environment
       name: POCKET_CORE_KEY
     required: true
+    secret: true
     if:
       account:
         enum:
@@ -84,6 +87,7 @@ fields:
       type: environment
       name: CUSTOM_SEEDS
     required: true
+    secret: true
     if:
       seedSource:
         enum:
