@@ -4,7 +4,6 @@
   "upstreamVersion": "0.3.0",
   "shortDescription": "A package to run a Pocket Core Service Node",
   "description": "A package to run a Pocket Core Service Node",
-  "avatar": "/ipfs/QmPkJxCXN7joLVGzw1UfUwRAiCCCVSebQZKU5i17je8mZo",
   "type": "service",
   "requirements": {
     "minimumDappnodeVersion": "0.2.37"
